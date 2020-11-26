@@ -15,7 +15,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
-import com.ktc.qa.dao.replyDao;
+import com.ktc.qa.dao.ReplyDao;
 import com.ktc.qa.pojo.Reply;
 
 /**
@@ -27,7 +27,7 @@ import com.ktc.qa.pojo.Reply;
 public class ReplyService {
 
 	@Autowired
-	private replyDao replyDao;
+	private ReplyDao replyDao;
 
 	@Autowired
 	private IdWorker idWorker;

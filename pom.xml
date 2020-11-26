@@ -12,6 +12,7 @@
         <module>ktc_base</module>
         <module>ktc_recruit</module>
         <module>ktc_qa</module>
+        <module>ktc_spit</module>
     </modules>
     <packaging>pom</packaging>
     <name>ktc_parent</name>

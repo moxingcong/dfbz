@@ -1,4 +1,4 @@
-package com.ktc.qa.controller;
+package com.ktc.gathering.controller;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,25 +10,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ktc.qa.pojo.pl;
-import com.ktc.qa.service.PlService;
+import com.ktc.gathering.pojo.Usergath;
+import com.ktc.gathering.service.UsergathService;
 
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
 
 /**
-* @Description tb_pl 控制器层
+* @Description 用户关注活动 控制器层
 * @author admin
-* @date 2020-11-25 18:21:41
+* @date 2020-11-26 10:33:26
 */
 @RestController
 @CrossOrigin
-@RequestMapping("/pl")
-public class PlController {
+@RequestMapping("/usergath")
+public class UsergathController{
 
 @Autowired
-private PlService plService;
+private UsergathService usergathService;
 
 /**
 * 查询全部数据
@@ -36,7 +36,7 @@ private PlService plService;
 */
 @RequestMapping(method= RequestMethod.GET)
 public Result findAll(){
-return new Result(true,StatusCode.OK,"查询成功",plService.findAll());
+return new Result(true,StatusCode.OK,"查询成功",usergathService.findAll());
 }
 
 /**
@@ -46,7 +46,7 @@ return new Result(true,StatusCode.OK,"查询成功",plService.findAll());
 */
 @RequestMapping(value="/{id}",method= RequestMethod.GET)
 public Result findById(@PathVariable String id){
-return new Result(true,StatusCode.OK,"查询成功",plService.findById(id));
+return new Result(true,StatusCode.OK,"查询成功",usergathService.findById(id));
 }
 
 /**
@@ -58,8 +58,8 @@ return new Result(true,StatusCode.OK,"查询成功",plService.findById(id));
 */
 @RequestMapping(value="/search/{page}/{size}",method=RequestMethod.POST)
 public Result findSearch(@RequestBody Map searchMap , @PathVariable int page, @PathVariable int size){
-Page<pl> pageList = plService.findSearch(searchMap, page, size);
-return  new Result(true,StatusCode.OK,"查询成功",  new PageResult<pl>(pageList.getTotalElements(), pageList.getContent()) );
+Page<Usergath> pageList = usergathService.findSearch(searchMap, page, size);
+return  new Result(true,StatusCode.OK,"查询成功",  new PageResult<Usergath>(pageList.getTotalElements(), pageList.getContent()) );
 }
 
 /**
@@ -69,27 +69,27 @@ return  new Result(true,StatusCode.OK,"查询成功",  new PageResult<pl>(pageLi
 */
 @RequestMapping(value="/search",method = RequestMethod.POST)
 public Result findSearch( @RequestBody Map searchMap){
-return new Result(true,StatusCode.OK,"查询成功", plService.findSearch(searchMap));
+return new Result(true,StatusCode.OK,"查询成功", usergathService.findSearch(searchMap));
 }
 
 /**
 * 增加
-* @param pl
+* @param usergath
 */
 @RequestMapping(method=RequestMethod.POST)
-public Result add(@RequestBody  pl  pl  ){
-plService.add( pl);
+public Result add(@RequestBody  Usergath  usergath  ){
+usergathService.add( usergath);
 return new Result(true,StatusCode.OK,"增加成功");
 }
 
 /**
 * 修改
-* @param pl
+* @param usergath
 */
 @RequestMapping(value="/{id}",method= RequestMethod.PUT)
-public Result update(@RequestBody  pl  pl, @PathVariable String id ){
-pl.setId(id);
-plService.update( pl);
+public Result update(@RequestBody  Usergath  usergath, @PathVariable String id ){
+usergath.setId(id);
+usergathService.update( usergath);
 return new Result(true,StatusCode.OK,"修改成功");
 }
 
@@ -99,7 +99,7 @@ return new Result(true,StatusCode.OK,"修改成功");
 */
 @RequestMapping(value="/{id}",method= RequestMethod.DELETE)
 public Result delete(@PathVariable String id ){
-plService.deleteById(id);
+usergathService.deleteById(id);
 return new Result(true,StatusCode.OK,"删除成功");
 }
 

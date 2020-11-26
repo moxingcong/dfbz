@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676d2023-58b5-498d-81e3-6f0330187681" name="Default Changelist" comment="" />
+    <list default="true" id="676d2023-58b5-498d-81e3-6f0330187681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/GatheringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/controller/GatheringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/dao/GatheringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/dao/UsergathDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/pojo/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/pojo/Usergath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/service/UsergathService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_gathering/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/java/com/ktc/spit/SpitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/java/com/ktc/spit/controller/SpitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/java/com/ktc/spit/dao/SpitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/java/com/ktc/spit/pojo/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/java/com/ktc/spit/service/SpitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ktc_spit/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfbzCode/codegen/codegen.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dfbzCode/codegen/codegen.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfbzCode/codegen/codegenconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dfbzCode/codegen/codegenconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/controller/PlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ktc_gathering/src/main/java/com/ktc/gathering/controller/UsergathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/dao/PlDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/pojo/Pl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/service/PlService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/service/ReplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ktc_qa/src/main/java/com/ktc/qa/service/ReplyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,13 +86,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1kSEM9SzdA1VvawPWCnvbEbjOXZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -72,7 +106,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605684456345" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ktc_gathering/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,13 +121,13 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project2\ktc_parent\ktc_recruit\src\main\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project2\ktc_parent\ktc_recruit\src\main\resources" />
       <recent name="D:\project2\ktc_parent\ktc_base\src\main\java\com\ktc\base\pojo" />
       <recent name="D:\project2\ktc_parent\ktc_common\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project2\ktc_parent\ktc_recruit\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.RecruitApplication">
@@ -157,34 +191,69 @@
       <workItem from="1605685854565" duration="1322000" />
       <workItem from="1606214694955" duration="3112000" />
       <workItem from="1606268236203" duration="20712000" />
-      <workItem from="1606354935741" duration="1734000" />
+      <workItem from="1606354935741" duration="14218000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1606356816817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606356816817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1606356925823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606356925823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="182" key="#Notifications" timestamp="1605685899165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605685899165" />
-    <state x="552" y="179" key="#Project_Structure" timestamp="1606275818149">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1606381736412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606275818149" />
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606381736412" />
     <state x="885" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606276521642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="885" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606276521642" />
-    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1606356829693">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606358574750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606356829693" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606356698985">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606358574750" />
+    <state x="560" y="109" key="CommitChangelistDialog2" timestamp="1606356925044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606356698985" />
+    <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606356925044" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606358614253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606358614253" />
     <state width="1877" height="479" key="GridCell.Tab.0.bottom" timestamp="1606307167645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606356674143" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606307023126">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606392750797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606307023126" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606392750797" />
     <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1605685586853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,9 +322,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="84" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606303522391" />
-    <state x="413" y="81" key="new project wizard" timestamp="1606299390533">
+    <state x="413" y="81" key="new project wizard" timestamp="1606381643313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="413" y="81" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606299390533" />
+    <state x="413" y="81" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606381643313" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606358197632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606358197632" />
   </component>
 </project>

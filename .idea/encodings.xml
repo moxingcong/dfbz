@@ -10,7 +10,9 @@
     <file url="file://$PROJECT_DIR$/ktc_common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ktc_common/src/main/java/entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ktc_common/src/main/java/util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ktc_gathering/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ktc_qa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ktc_recruit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ktc_spit/src/main/java" charset="UTF-8" />
   </component>
 </project>
