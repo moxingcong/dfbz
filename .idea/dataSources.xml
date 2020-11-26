@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ktc_base@192.168.25.132" uuid="c6ba4269-9f3b-4e94-b65e-2d56e822068c">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.25.132:3307/ktc_base</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ktc_recruit@192.168.25.132" uuid="275e66e4-a464-44a3-8f2e-03c0142f5213">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.25.132:3307/ktc_recruit</jdbc-url>
+    </data-source>
+  </component>
+</project>
